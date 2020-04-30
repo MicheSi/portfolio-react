@@ -1,12 +1,15 @@
 import React from 'react';
 import {Route} from 'react-router-dom';
-
+// Component Import
+import Home from './components/home';
+// Style imports
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Michelle Sirimanivong</h1>
+      <Home/>
+
     </div>
   );
 }

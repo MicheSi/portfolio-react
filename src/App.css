@@ -1,17 +1,21 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   margin: 0 auto;
 }
 
 /* Home Page Styles */
 .homeDiv {
+  height: 100vh;
   margin: 3% 0 2%;
   text-transform: uppercase;
-  color: maroon;
+  color: firebrick;
 }
 
 .elephantImg {
-  width: 450px;
+  width: 350px;
 }
 
 nav {
@@ -22,6 +26,15 @@ nav {
 nav a {
   text-decoration: none;
   font-weight: bold;
-  color: maroon;
+  color: firebrick;
   margin: 2% 2% 0;
 }
+
+.michelle {
+  position: absolute;
+  width: 500px;
+  top: 245px;
+  right: 510px;
+}
+
+

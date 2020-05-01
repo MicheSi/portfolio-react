@@ -9,18 +9,20 @@
 /* Home Page Styles */
 .homeDiv {
   height: 100vh;
-  margin: 3% 0 2%;
+  margin: 2% 0;
   text-transform: uppercase;
   color: firebrick;
 }
 
 .elephantImg {
   width: 350px;
+  margin: 10% 0;
 }
 
 nav {
-  margin-top: 3%;
+  margin-top: 10%;
   font-weight: bold;
+  color: firebrick;
 }
 
 nav a {
@@ -33,7 +35,7 @@ nav a {
 .michelle {
   position: absolute;
   width: 500px;
-  top: 245px;
+  top: 275px;
   right: 510px;
 }
 

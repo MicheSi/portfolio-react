@@ -1,9 +1,14 @@
+/* General Styles */
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   margin: 0 auto;
+}
+
+.title {
+  color: white;
 }
 
 /* Home Page Styles */
@@ -37,6 +42,20 @@ nav a {
   width: 500px;
   top: 275px;
   right: 510px;
+}
+
+/* About Styles */
+#about {
+  display: flex;
+  height: 80vh;
+}
+
+#about div {
+  width: 49%;
+}
+
+.titleDiv nav {
+  margin-top: 30%;
 }
 
 

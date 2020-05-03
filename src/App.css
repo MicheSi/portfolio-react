@@ -4,11 +4,44 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
 }
 
 .title {
   color: white;
+}
+
+#about, #work, #contact {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+#about div, #work div, #contact div {
+  width: 49%;
+}
+
+.titleDiv {
+  height: 80vh;
+}
+
+.titleDiv nav {
+  margin-top: 30%;
+}
+
+/* Nav Styles */
+nav {
+  margin-top: 10%;
+  font-weight: bold;
+  color: firebrick;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: firebrick;
+  margin: 2% 2% 0;
 }
 
 /* Home Page Styles */
@@ -24,19 +57,6 @@
   margin: 10% 0;
 }
 
-nav {
-  margin-top: 10%;
-  font-weight: bold;
-  color: firebrick;
-}
-
-nav a {
-  text-decoration: none;
-  font-weight: bold;
-  color: firebrick;
-  margin: 2% 2% 0;
-}
-
 .michelle {
   position: absolute;
   width: 500px;
@@ -45,17 +65,31 @@ nav a {
 }
 
 /* About Styles */
-#about {
+
+
+/* Work Styles */
+.ddt img, .gigapet img, .farmfresh img {
+  width: 650px;
+}
+
+/* Contact Styles */
+.iconLinks {
   display: flex;
-  height: 80vh;
+  justify-content: space-evenly;
 }
 
-#about div {
-  width: 49%;
+.iconLinks a {
+  text-decoration: none;
+  color: black;
 }
 
-.titleDiv nav {
-  margin-top: 30%;
+.iconLinks i {
+  color: black;
+  font-size: 3em;
+}
+
+.iconLinks i:hover {
+  color: firebrick;
 }
 
 

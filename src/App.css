@@ -23,11 +23,19 @@
 }
 
 .titleDiv {
-  height: 80vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .titleDiv nav {
   margin-top: 30%;
+}
+
+.titleImg {
+  width: 300px;
 }
 
 /* Nav Styles */
@@ -42,6 +50,10 @@ nav a {
   font-weight: bold;
   color: firebrick;
   margin: 2% 2% 0;
+}
+
+nav a:hover {
+  color: white
 }
 
 /* Home Page Styles */
@@ -65,14 +77,38 @@ nav a {
 }
 
 /* About Styles */
+.aboutImgDiv {
+  background-color: firebrick;
+}
 
+.aboutImgDiv nav, .aboutImgDiv nav a {
+  color: black;
+}
+
+.aboutImgDiv nav a:hover {
+  color: white;
+}
 
 /* Work Styles */
+
 .ddt img, .gigapet img, .farmfresh img {
   width: 650px;
 }
 
+.projectDiv {
+  height: 100vh;
+  overflow: auto;
+}
+
+.projectDiv::-webkit-scrollbar {
+  display: none;
+}
+
 /* Contact Styles */
+.contactDiv {
+  background-color: #504c4c;
+}
+
 .iconLinks {
   display: flex;
   justify-content: space-evenly;

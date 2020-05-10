@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './nav';
+import work from '../images/work.png';
 import ddt from '../images/ddt.png';
 import gigapet from '../images/gigapet.png';
 import farmfresh from '../images/farmfresh.png';
@@ -8,7 +9,7 @@ const Work = props => {
     return (
         <section id='work'>
             <div className='titleDiv'>
-                <h1 className='title'>Work</h1>
+                <img className='titleImg' src={work} alt='Work' />
                 <NavBar />
             </div>
             <div className='projectDiv'>

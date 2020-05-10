@@ -1,11 +1,12 @@
 import React from 'react';
 import NavBar from './nav';
+import contact from '../images/contact.png';
 
 const Contact = props => {
     return (
         <section id='contact'>
-            <div className='titleDiv'>
-                <h1 className='title'>Contact</h1>
+            <div className='titleDiv contactDiv'>
+                <img className='titleImg' src={contact} alt='Contact' />
                 <NavBar />
             </div>
             <div className='contactInfo'>

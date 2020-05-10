@@ -1,11 +1,12 @@
 import React from 'react';
 import NavBar from './nav';
+import about from '../images/about.png';
 
 const About = props => {
     return (
         <section id='about'>
-            <div className='titleDiv'>
-                <h1 className='title'>About</h1>
+            <div className='titleDiv aboutImgDiv'>
+                <img className='titleImg' src={about} alt='About'/>
                 <NavBar />
             </div>
             <div className='aboutDiv'>

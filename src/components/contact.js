@@ -20,7 +20,6 @@ const Contact = props => {
                     <a href='https://twitter.com/msirimanivong' target='_blank'><i className="fab fa-twitter"></i></a>                
                 </div>
             </div>
-
         </section>
     )
 }

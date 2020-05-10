@@ -24,7 +24,6 @@ const About = props => {
                     Vestibulum efficitur consequat tincidunt. Suspendisse ut malesuada neque.
                 </p>
             </div>
-
         </section>
     )
 }

@@ -128,4 +128,10 @@ nav a:hover {
   color: firebrick;
 }
 
+/* footer styles */
+footer {
+  width: 100%;
+  background-color: firebrick;
+  color: white;
+}
 

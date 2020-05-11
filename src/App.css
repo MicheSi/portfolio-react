@@ -89,8 +89,11 @@ nav a:hover {
   color: white;
 }
 
-/* Work Styles */
+.aboutDiv p, .aboutDiv h3 {
+  margin: 6% 10%;
+}
 
+/* Work Styles */
 .ddt img, .gigapet img, .farmfresh img {
   width: 650px;
 }

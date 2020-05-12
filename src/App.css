@@ -19,11 +19,12 @@
 }
 
 #about div, #work div, #contact div {
-  width: 49%;
+  width: 50%;
 }
 
 .titleDiv {
   height: 100vh;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,8 +95,13 @@ nav a:hover {
 }
 
 /* Work Styles */
+
+.ddt, .gigapet, .farmfresh {
+  width: 50%;
+}
+
 .ddt img, .gigapet img, .farmfresh img {
-  width: 650px;
+  width: 750px;
 }
 
 .projectDiv {
@@ -107,9 +113,17 @@ nav a:hover {
   display: none;
 }
 
+
 /* Contact Styles */
 .contactDiv {
   background-color: #504c4c;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
 }
 
 .iconLinks {

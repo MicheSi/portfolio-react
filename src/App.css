@@ -106,7 +106,6 @@ nav a:hover {
 }
 
 /* Work Styles */
-
 .ddt, .gigapet, .farmfresh, .amiibo {
   width: 50%;
 }
@@ -173,3 +172,90 @@ footer {
   color: white;
 }
 
+/* Media Queries */
+@media (max-width: 1000px) {
+  .michelle {
+    top: 265px;
+    right: 250px;
+  }
+
+  .homeDiv nav {
+    margin-top: 10%;
+  }
+
+  .ddt img, .gigapet img, .farmfresh img, .amiibo img{
+    width: 495px;
+  }
+}
+
+@media (max-width: 800px) {
+  .michelle {
+    top: 260px;
+    right: 150px;
+  }
+
+  .ddt img, .gigapet img, .farmfresh img, .amiibo img{
+    width: 399px;
+  }
+}
+
+@media (max-width: 600px) {
+  .michelle {
+    top: 255px;
+    right: 50px;
+  }
+
+  #about, #work, #contact {
+    flex-direction: column;
+  }
+  
+  #about div, #work div, #contact div {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .titleDiv nav {
+    display: none;
+  }
+
+  .ddt img, .gigapet img, .farmfresh img, .amiibo img{
+    width: 599px;
+  }
+
+  .titleImg {
+    margin-top: 0;
+  }
+
+  .iconLinks {
+    justify-content: space-evenly;
+    margin-left: 0;
+  }
+
+  @media (max-width: 500px) {
+    .elephantImg {
+      width: 275px;
+    }
+
+    .michelle {
+      width: 375px;
+      top: 215px;
+      right: 60px;
+    }
+
+    .homeDiv {
+      height: 85vh;
+    }
+
+    .ddt img, .gigapet img, .farmfresh img, .amiibo img{
+      width: 499px;
+    }
+
+    .contactText {
+      margin-left: 5%;
+    }
+
+    .contactText h2, .contactText p {
+      width: 450px;
+    }
+  }
+}

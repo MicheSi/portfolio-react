@@ -97,7 +97,8 @@ nav a:hover {
 
 .aboutDiv {
   text-align: left;
-  margin-top: 3%;
+  padding-top: 3%;
+  background-color: white;
 }
 
 .aboutDiv p, .aboutDiv h3 {

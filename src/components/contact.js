@@ -10,14 +10,14 @@ const Contact = props => {
                 <NavBar />
             </div>
             <div className='contactInfo'>
-                <div>
+                <div className='contactText'>
                     <h2>Let's build something together!</h2>
-                    <p>If you'd like to collaborate on a project, feel free to contact me.</p>
+                    <p>If you'd like to collaborate on a project, please get in touch.</p>
                 </div>
                 <div className='iconLinks'>
                     <a href='mailto:mlazzell17@gmail.com'><i className="fas fa-envelope-open-text"></i></a>
-                    <a href='https://www.linkedin.com/in/michellesirimanivong/' target='_blank'><i className="fab fa-linkedin"></i></a>
-                    <a href='https://twitter.com/msirimanivong' target='_blank'><i className="fab fa-twitter"></i></a>                
+                    <a href='https://www.linkedin.com/in/michellesirimanivong/' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin"></i></a>
+                    <a href='https://twitter.com/msirimanivong' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a>                
                 </div>
             </div>
         </section>

@@ -4,6 +4,7 @@ import work from '../images/work.png';
 import ddt from '../images/ddt.png';
 import gigapet from '../images/gigapet.png';
 import farmfresh from '../images/farmfresh.png';
+import amiibo from '../images/amiibo.png';
 
 const Work = props => {
     return (
@@ -14,13 +15,16 @@ const Work = props => {
             </div>
             <div className='projectDiv'>
                 <div className='ddt'>
-                    <img src={ddt} alt='Data Driven Transit' />
+                    <a href='https://github.com/Lambda-School-Labs/sfmta-data-analysis-fe' target='_blank' rel='noopener noreferrer'><img src={ddt} alt='Data Driven Transit'/></a>
                 </div>
                 <div className='gigapet'>
-                    <img src={gigapet} alt='Gigapets' />
+                    <a href='https://github.com/build-gigapet-1/Frontend' target='_blank' rel='noopener noreferrer'><img src={gigapet} alt='Gigapets' /></a>
                 </div>
                 <div className='farmfresh'>
-                    <img src={farmfresh} alt='Farm Fresh Produce'/>
+                    <a href='https://github.com/bw-farm-fresh-produce-v3/Frontend' target='_blank' rel='noopener noreferrer'><img src={farmfresh} alt='Farm Fresh Produce'/></a>
+                </div>
+                <div className='amiibo'>
+                    <a href='https://github.com/MicheSi/amiibo' target='_blank' rel='noopener noreferrer'><img src={amiibo} alt='Amiibo'/></a>
                 </div>
             </div>
         </section>

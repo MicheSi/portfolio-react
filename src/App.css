@@ -32,16 +32,16 @@
 }
 
 .titleDiv nav {
-  margin-top: 30%;
+  margin-top: 35%;
 }
 
 .titleImg {
   width: 300px;
+  margin-top: 30%;
 }
 
 /* Nav Styles */
 nav {
-  margin-top: 10%;
   font-weight: bold;
   color: firebrick;
 }
@@ -96,11 +96,11 @@ nav a:hover {
 
 /* Work Styles */
 
-.ddt, .gigapet, .farmfresh {
+.ddt, .gigapet, .farmfresh, .amiibo {
   width: 50%;
 }
 
-.ddt img, .gigapet img, .farmfresh img {
+.ddt img, .gigapet img, .farmfresh img, .amiibo img{
   width: 750px;
 }
 
@@ -116,6 +116,7 @@ nav a:hover {
 
 /* Contact Styles */
 .contactDiv {
+  /* height: 95vh; */
   background-color: #504c4c;
 }
 
@@ -123,12 +124,18 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 5%;
+  text-align: left;
+  padding-top: 2%;
+}
+
+.contactText h2, .contactText p {
+  margin: 10% 0;
 }
 
 .iconLinks {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-top: 10%;
 }
 
 .iconLinks a {

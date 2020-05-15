@@ -44,6 +44,7 @@
 nav {
   font-weight: bold;
   color: firebrick;
+  text-transform: uppercase;
 }
 
 nav a {
@@ -77,6 +78,10 @@ nav a:hover {
   right: 510px;
 }
 
+.homeDiv nav {
+  margin-top: 25%;
+}
+
 /* About Styles */
 .aboutImgDiv {
   background-color: firebrick;
@@ -88,6 +93,11 @@ nav a:hover {
 
 .aboutImgDiv nav a:hover {
   color: white;
+}
+
+.aboutDiv {
+  text-align: left;
+  margin-top: 3%;
 }
 
 .aboutDiv p, .aboutDiv h3 {
@@ -123,9 +133,12 @@ nav a:hover {
 .contactInfo {
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: left;
-  padding-top: 2%;
+  padding-top: 3%;
+}
+
+.contactText, .iconLinks {
+  margin-left: 10%;
 }
 
 .contactText h2, .contactText p {

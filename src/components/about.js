@@ -17,11 +17,8 @@ const About = props => {
                     I began to create custom stationary and invitations for clients - turning a simple piece of paper into a beautiful work of art.
                 </p>
                 <p>
-                    Aenean tincidunt at felis at commodo. Maecenas vitae metus venenatis, vehicula libero a, elementum sapien. 
-                    Curabitur vitae ornare dui. Nunc bibendum euismod quam sit amet rutrum. Duis commodo quis ligula non elementum. 
-                    Fusce egestas metus nec iaculis interdum. Nullam ultricies imperdiet ante, sit amet ullamcorper ipsum volutpat nec. 
-                    Phasellus id metus varius, suscipit lacus sit amet, efficitur mauris. Donec a pulvinar dolor. Sed et arcu enim. 
-                    Vestibulum efficitur consequat tincidunt. Suspendisse ut malesuada neque.
+                    I attended the Full Stack Web Development program at Lambda School in September of 2019. I learned how to build functional and appealing
+                    applications using HTML, CSS and Javascript, React and Node.js. 
                 </p>
             </div>
         </section>

@@ -173,29 +173,54 @@ footer {
 }
 
 /* Media Queries */
-@media (max-width: 1000px) {
+
+/* iPad Pro 1024 x 1366 */
+@media (max-width: 1024px) {
   .michelle {
     top: 265px;
-    right: 250px;
+    right: 260px;
+  }
+
+  .homeDiv {
+    height: 50vh;
   }
 
   .homeDiv nav {
     margin-top: 10%;
   }
 
+  .titleDiv, .projectDiv, .contactDiv {
+    height: 45vh;
+  }
+
   .ddt img, .gigapet img, .farmfresh img, .amiibo img{
-    width: 495px;
+    width: 511px;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .michelle {
-    top: 260px;
-    right: 150px;
+    right: 200px;
   }
 
   .ddt img, .gigapet img, .farmfresh img, .amiibo img{
-    width: 399px;
+    width: 449px;
+  }
+}
+
+/* iPad 768 x 1024 */
+@media (max-width: 768px) {
+  .michelle {
+    top: 265px;
+    right: 140px;
+  }
+
+  .homeDiv {
+    height: 65vh;
+  }
+
+  .ddt img, .gigapet img, .farmfresh img, .amiibo img{
+    width: 383px;
   }
 }
 
@@ -205,13 +230,17 @@ footer {
     right: 50px;
   }
 
+  .homeDiv {
+    height: 55vh;
+  }
+
   #about, #work, #contact {
     flex-direction: column;
   }
   
   #about div, #work div, #contact div {
     width: 100%;
-    height: 70vh;
+    height: 40vh;
   }
 
   .titleDiv nav {

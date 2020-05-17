@@ -259,32 +259,51 @@ footer {
     justify-content: space-evenly;
     margin-left: 0;
   }
+}
 
-  @media (max-width: 500px) {
-    .elephantImg {
-      width: 275px;
-    }
+@media (max-width: 480px) {
+  .elephantImg {
+    width: 275px;
+  }
 
-    .michelle {
-      width: 375px;
-      top: 215px;
-      right: 60px;
-    }
+  .michelle {
+    width: 375px;
+    top: 220px;
+    right: 60px;
+  }
 
-    .homeDiv {
-      height: 85vh;
-    }
+  .homeDiv {
+    height: 85vh;
+  }
 
-    .ddt img, .gigapet img, .farmfresh img, .amiibo img{
-      width: 499px;
-    }
+  #about div, #work div, #contact div {
+    height: 65vh;
+  }
 
-    .contactText {
-      margin-left: 5%;
-    }
+  .ddt img, .gigapet img, .farmfresh img, .amiibo img{
+    width: 478px;
+  }
 
-    .contactText h2, .contactText p {
-      width: 450px;
-    }
+  .contactText {
+    margin-left: 5%;
+  }
+
+  .contactText h2, .contactText p {
+    width: 450px;
+  }
+}
+
+@media (max-width: 320px) {
+  .elephantImg {
+    width: 250px;
+  }
+  .michelle {
+    width: 275px;
+    top: 210px;
+    right: 30px;
+  }
+
+  .ddt img, .gigapet img, .farmfresh img, .amiibo img{
+    width: 319px;
   }
 }

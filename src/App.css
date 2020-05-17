@@ -261,7 +261,8 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
+/* Note 10 Plus */
+@media (max-width: 498px) {
   .elephantImg {
     width: 275px;
   }
@@ -269,7 +270,7 @@ footer {
   .michelle {
     width: 375px;
     top: 220px;
-    right: 60px;
+    right: 65px;
   }
 
   .homeDiv {
@@ -281,7 +282,7 @@ footer {
   }
 
   .ddt img, .gigapet img, .farmfresh img, .amiibo img{
-    width: 478px;
+    width: 497px;
   }
 
   .contactText {
@@ -292,6 +293,10 @@ footer {
     width: 450px;
   }
 }
+
+/* Note 10 */
+
+
 
 @media (max-width: 320px) {
   .elephantImg {
@@ -305,5 +310,33 @@ footer {
 
   .ddt img, .gigapet img, .farmfresh img, .amiibo img{
     width: 319px;
+  }
+
+  .titleImg {
+    width: 275px;
+  }
+
+  .aboutDiv p {
+    font-size: 14px;
+  }
+
+  .contactText h2, .contactText p {
+    width: 310px;
+  }
+
+  .contactText h2 {
+    font-size: 20px;
+  }
+
+  .contactText p {
+    font-size: 14px;
+  }
+
+  .iconLinks i {
+    font-size: 2em;
+  }
+
+  footer {
+    font-size: 14px;
   }
 }

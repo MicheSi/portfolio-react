@@ -183,7 +183,7 @@ footer {
   }
 
   .ddt img, .gigapet img, .farmfresh img, .amiibo img{
-    width: 511px;
+    width: 500px;
   }
 }
 
@@ -210,7 +210,7 @@ footer {
   }
 
   .ddt img, .gigapet img, .farmfresh img, .amiibo img{
-    width: 383px;
+    width: 380px;
   }
 }
 
@@ -234,7 +234,7 @@ footer {
   }
 
   .ddt img, .gigapet img, .farmfresh img, .amiibo img{
-    width: 599px;
+    width: 595px;
   }
 
   .titleImg {
@@ -282,7 +282,7 @@ footer {
   }
 
   .ddt img, .gigapet img, .farmfresh img, .amiibo img{
-    width: 399px;
+    width: 390px;
   }
 
   .contactText h2, .contactText p {
@@ -295,10 +295,10 @@ footer {
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
 
   .ddt img, .gigapet img, .farmfresh img, .amiibo img{
-    width: 319px;
+    width: 340px;
   }
 
   .titleImg {

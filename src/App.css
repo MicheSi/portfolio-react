@@ -66,25 +66,14 @@ nav a:hover {
   color: firebrick;
 }
 
-.elephantImg {
-  width: 350px;
-  margin: 10% 0;
-}
-
-.michelle {
-  position: absolute;
-  width: 500px;
-  top: 275px;
-  right: 510px;
-}
 
 .homeDiv nav {
-  margin-top: 5%;
+  margin-top: 20%;
 }
 
 .logo {
-  width: 33%;
-  margin-top: 2%;
+  width: 500px;
+  margin-top: 4%;
 }
 /* About Styles */
 .aboutImgDiv {
@@ -180,10 +169,6 @@ footer {
 
 /* iPad Pro 1024 x 1366 */
 @media (max-width: 1024px) {
-  .michelle {
-    top: 265px;
-    right: 260px;
-  }
 
   .homeDiv {
     height: 50vh;
@@ -203,9 +188,6 @@ footer {
 }
 
 @media (max-width: 900px) {
-  .michelle {
-    right: 200px;
-  }
 
   .ddt img, .gigapet img, .farmfresh img, .amiibo img{
     width: 449px;
@@ -214,10 +196,6 @@ footer {
 
 /* iPad 768 x 1024 */
 @media (max-width: 768px) {
-  .michelle {
-    top: 265px;
-    right: 140px;
-  }
 
   .homeDiv {
     height: 65vh;
@@ -229,10 +207,6 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .michelle {
-    top: 255px;
-    right: 50px;
-  }
 
   .homeDiv {
     height: 55vh;
@@ -267,15 +241,6 @@ footer {
 
 /* Note 10 Plus */
 @media (max-width: 498px) {
-  .elephantImg {
-    width: 275px;
-  }
-
-  .michelle {
-    width: 375px;
-    top: 220px;
-    right: 65px;
-  }
 
   .homeDiv {
     height: 85vh;
@@ -300,15 +265,6 @@ footer {
 
 /* Note 10 */
 @media (max-width: 400px) {
-  .elephantImg {
-    width: 225px;
-  }
-
-  .michelle {
-    width: 325px;
-    top: 190px;
-    right: 40px;
-  }
 
   .homeDiv {
     height: 75vh;
@@ -329,14 +285,6 @@ footer {
 
 
 @media (max-width: 320px) {
-  .elephantImg {
-    width: 250px;
-  }
-  .michelle {
-    width: 275px;
-    top: 210px;
-    right: 30px;
-  }
 
   .ddt img, .gigapet img, .farmfresh img, .amiibo img{
     width: 319px;

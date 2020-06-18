@@ -254,7 +254,7 @@ footer {
     height: 85vh;
   }
 
-  #about div, #work div, #contact div {
+  #about div, #work .titleDiv, #contact div {
     height: 65vh;
   }
 
@@ -263,11 +263,11 @@ footer {
   }
 
   .contactText {
-    margin-left: 5%;
+    padding: 10% 0;
   }
 
   .contactText h2, .contactText p {
-    width: 450px;
+    width: 400px;
   }
 }
 

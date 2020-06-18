@@ -272,9 +272,9 @@ footer {
 }
 
 /* Note 10 */
-@media (max-width: 400px) {
+@media (max-width: 426px) {
   .logo {
-    width: 300px;
+    width: 325px;
   }
 
   .homeDiv {
@@ -282,7 +282,7 @@ footer {
   }
 
   .ddt img, .gigapet img, .farmfresh img, .amiibo img{
-    width: 390px;
+    width: 420px;
   }
 
   .contactText h2, .contactText p {

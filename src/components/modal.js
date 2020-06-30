@@ -11,13 +11,14 @@ const HoverModal = (props) => {
     <div>
       <Button color="danger" onClick={toggle}></Button>
       <Modal isOpen={modal} toggle={toggle} className='modal'>
-        <ModalHeader toggle={toggle}>{props.name}</ModalHeader>
+        <ModalHeader toggle={toggle}>{name}</ModalHeader>
         <ModalBody>
-          {props.about}
+          {about}
         </ModalBody>
         <ModalFooter>
-          <Button color="primary" onClick={toggle}>Github Repo</Button>{' '}
-          <Button color="secondary" onClick={toggle}>Visit website</Button>
+          <Button color="primary" href={github} target='_blank'>Github</Button>{' '}
+          <Button color="secondary" href={website} target ='_blank'>Website</Button>
+          <Button target ='_blank' onClick={toggle}>Close</Button>
         </ModalFooter>
       </Modal>
     </div>

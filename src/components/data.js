@@ -28,3 +28,5 @@ const projectData = [
         website: 'https://amiibo.now.sh/'
     },
 ]
+
+export default projectData;

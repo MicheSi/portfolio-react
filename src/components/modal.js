@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
-const HoverModal = (props) => {
-
-  const [modal, setModal] = useState(false);
-
-  const toggle = () => setModal(!modal);
+const HoverModal = ({project: {name, about, github, website}, modal, toggle}) => {
 
   return (
     <div>

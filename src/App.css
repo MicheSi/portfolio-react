@@ -99,11 +99,11 @@ nav a:hover {
 }
 
 /* Work Styles */
-.ddt, .gigapet, .farmfresh, .amiibo {
+.ddt, .gigapet, .farmfresh, .amiibo, .life {
   width: 50%;
 }
 
-.ddt img, .gigapet img, .farmfresh img, .amiibo img{
+.ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img {
   width: 750px;
 }
 
@@ -182,14 +182,14 @@ footer {
     height: 45vh;
   }
 
-  .ddt img, .gigapet img, .farmfresh img, .amiibo img{
+  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img {
     width: 500px;
   }
 }
 
 @media (max-width: 900px) {
 
-  .ddt img, .gigapet img, .farmfresh img, .amiibo img{
+  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
     width: 449px;
   }
 }
@@ -209,7 +209,7 @@ footer {
     margin-top: 20%;
   }
 
-  .ddt img, .gigapet img, .farmfresh img, .amiibo img{
+  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
     width: 380px;
   }
 }
@@ -233,7 +233,7 @@ footer {
     display: none;
   }
 
-  .ddt img, .gigapet img, .farmfresh img, .amiibo img{
+  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
     width: 595px;
   }
 
@@ -258,7 +258,7 @@ footer {
     height: 65vh;
   }
 
-  .ddt img, .gigapet img, .farmfresh img, .amiibo img{
+  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
     width: 497px;
   }
 
@@ -281,7 +281,7 @@ footer {
     height: 75vh;
   }
 
-  .ddt img, .gigapet img, .farmfresh img, .amiibo img{
+  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
     width: 420px;
   }
 
@@ -297,7 +297,7 @@ footer {
 
 @media (max-width: 360px) {
 
-  .ddt img, .gigapet img, .farmfresh img, .amiibo img{
+  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
     width: 340px;
   }
 

@@ -18,7 +18,7 @@ const About = props => {
                 </p>
                 <p>
                     I attended the Full Stack Web Development program at Lambda School in September of 2019. I learned how to build functional and appealing
-                    applications using HTML, CSS and Javascript, React and Node.js. 
+                    applications using HTML, CSS, Javascript, React and Node.js. I also learned how to build a program using Python during our Computer Science unit.
                 </p>
             </div>
         </section>

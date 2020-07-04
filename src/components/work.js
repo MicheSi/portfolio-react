@@ -38,10 +38,10 @@ const Work = props => {
             </div>
             <div className='projectDiv'>
                 {(modal && project) && <HoverModal project={project} modal={modal} toggle={toggle}/>}
+
                 <div className='life'>
                     <a href='https://github.com/MicheSi/csbw-game-of-life' target='_blank' rel='noopener noreferrer'><img src={life} alt='Game of Life'onClick={(data) => {showModal(data)}}/></a>
                 </div>
-
                 <div className='ddt'>
                     <a href='https://github.com/Lambda-School-Labs/sfmta-data-analysis-fe' target='_blank' rel='noopener noreferrer'><img src={ddt} alt='Data Driven Transit' /></a>
                 </div>

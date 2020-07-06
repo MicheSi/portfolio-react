@@ -124,6 +124,13 @@ nav a:hover {
   display: none;
 }
 
+.projectDiv a {
+  text-decoration: none;
+}
+
+.projectDiv h3:hover {
+  color: black;
+}
 
 /* Contact Styles */
 .contactDiv {

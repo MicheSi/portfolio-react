@@ -103,13 +103,20 @@ nav a:hover {
   width: 50%;
 }
 
+.life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
+  width: 700px;
+  text-align: left;
+  margin-left: 10%;
+}
+
 .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img {
-  width: 750px;
+  width: 760px;
 }
 
 .projectDiv {
   height: 100vh;
   overflow: auto;
+  background-color: white;
 }
 
 .projectDiv::-webkit-scrollbar {

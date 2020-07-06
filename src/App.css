@@ -104,9 +104,10 @@ nav a:hover {
 }
 
 .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
-  width: 700px;
+  width: 175%;
   text-align: left;
   margin-left: 10%;
+  color: white;
 }
 
 .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img {
@@ -116,7 +117,7 @@ nav a:hover {
 .projectDiv {
   height: 100vh;
   overflow: auto;
-  background-color: white;
+  background-color: firebrick;
 }
 
 .projectDiv::-webkit-scrollbar {
@@ -187,6 +188,12 @@ footer {
 
   .titleDiv, .projectDiv, .contactDiv {
     height: 45vh;
+  }
+
+  .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
+    width: 135%;
+    text-align: left;
+    margin-left: 10%;
   }
 
   .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img {

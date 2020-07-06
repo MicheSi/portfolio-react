@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 // component imports
 import NavBar from './nav';
-import HoverModal from './modal';
-import projectData from './data';
+
 // image imports
+import projects from '../images/projects.png';
 import work from '../images/work.png';
 import ddt from '../images/ddt.png';
 import gigapet from '../images/gigapet.png';
@@ -12,33 +12,13 @@ import amiibo from '../images/amiibo.png';
 import life from '../images/life.png';
 
 const Work = props => {
-    const [modal, setModal] = useState(false)
-    const [project, setProject] = useState(null)
-
-    const toggle = () => setModal(!modal)
-
-    const showModal = (data) => {
-        console.log('data', data)
-        let projectName = (data)
-
-        projectData.map(project => {
-            if(project.name === projectName){
-                setProject(project)
-                toggle()
-            }
-        })
-
-    }
-
     return (
         <section id='work'>
             <div className='titleDiv'>
-                <img className='titleImg' src={work} alt='Work' />
+                <img className='titleImg' src={projects} alt='Projects' />
                 <NavBar />
             </div>
             <div className='projectDiv'>
-                {(modal && project) && <HoverModal project={project} modal={modal} toggle={toggle}/>}
-
                 <div className='life'>
                     <a href='https://github.com/MicheSi/csbw-game-of-life' target='_blank' rel='noopener noreferrer'><img src={life} alt='Game of Life'/></a>
                     <a href='https://csbw-game-of-life.now.sh/' target='_blank' rel='noopener noreferrer'><h3>Conway's Game of Life</h3></a>

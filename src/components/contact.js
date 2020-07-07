@@ -17,6 +17,7 @@ const Contact = props => {
                 <div className='iconLinks'>
                     <a href='mailto:mlazzell17@gmail.com'><i className="fas fa-envelope-open-text"></i></a>
                     <a href='https://www.linkedin.com/in/michellesirimanivong/' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin"></i></a>
+                    <a href='https://github.com/MicheSi' target='_blank' rel='noopener noreferrer'><i className="fab fa-github"></i></a>
                     <a href='https://twitter.com/msirimanivong' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter"></i></a>                
                 </div>
             </div>

@@ -73,13 +73,27 @@ nav a:hover {
 }
 
 .homeDiv nav {
-  margin-top: 20%;
+  margin-top: 6%;
+}
+
+.ms {
+  width: 55%;
+}
+
+.elephants {
+  width: 20%;
+}
+
+.homeDiv h4 {
+  margin-top: 0;
 }
 
 .logo {
   width: 500px;
   margin-top: 4%;
 }
+
+
 /* About Styles */
 .aboutImgDiv {
   background-color: firebrick;

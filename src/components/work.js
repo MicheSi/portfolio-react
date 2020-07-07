@@ -27,7 +27,7 @@ const Work = props => {
                 </div>
                 <div className='ddt'>
                     <a href='https://github.com/Lambda-School-Labs/sfmta-data-analysis-fe' target='_blank' rel='noopener noreferrer'><img src={ddt} alt='Data Driven Transit' /></a>
-                    <a href='https://datadriventransit.com/' target='_blank' rel='noopener noreferrer'><h3>Data Driven Transit</h3></a>
+                    <a href='https://datadriventransit.org/' target='_blank' rel='noopener noreferrer'><h3>Data Driven Transit</h3></a>
                     <p>Data Driven Transit is a React app that displays historical data on the San Francisco Municipal Transportation Agency.</p>
                     <p>▪ Collaborated on a team of 4 web developers, 3 data scientists and 1 UX designer to build the app in 8 weeks</p>
                     <p>▪ Solely responsible for creating the website logo and building the navigation bar</p>

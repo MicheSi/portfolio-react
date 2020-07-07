@@ -4,7 +4,6 @@ import NavBar from './nav';
 
 // image imports
 import projects from '../images/projects.png';
-import work from '../images/work.png';
 import ddt from '../images/ddt.png';
 import gigapet from '../images/gigapet.png';
 import farmfresh from '../images/farmfresh.png';

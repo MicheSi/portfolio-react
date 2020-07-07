@@ -6,6 +6,12 @@
   text-align: center;
   max-width: 100%;
   margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 2rem;
 }
 
 .title {
@@ -66,7 +72,6 @@ nav a:hover {
   color: firebrick;
 }
 
-
 .homeDiv nav {
   margin-top: 20%;
 }
@@ -95,7 +100,7 @@ nav a:hover {
 }
 
 .aboutDiv p, .aboutDiv h3 {
-  margin: 6% 10%;
+  padding: 1% 10%;
 }
 
 /* Work Styles */
@@ -111,7 +116,7 @@ nav a:hover {
 }
 
 .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img {
-  width: 760px;
+  width: 200%;
 }
 
 .projectDiv {
@@ -158,6 +163,7 @@ nav a:hover {
 }
 
 .contactText h2, .contactText p {
+  width: 175%;
   margin: 10% 0;
 }
 
@@ -205,22 +211,21 @@ footer {
     height: 45vh;
   }
 
+  .aboutDiv p, .aboutDiv h3 {
+    padding-right: 25%;
+  }
+
   .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
     width: 135%;
     text-align: left;
     margin-left: 10%;
   }
 
-  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img {
-    width: 500px;
+  .contactText h2, .contactText p {
+    width: 125%;
+    margin: 10% 0;
   }
-}
 
-@media (max-width: 900px) {
-
-  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
-    width: 449px;
-  }
 }
 
 /* iPad 768 x 1024 */
@@ -238,9 +243,22 @@ footer {
     margin-top: 20%;
   }
 
-  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
-    width: 380px;
+  h2 {
+    font-size: 2rem;
   }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .iconLinks i {
+    font-size: 2.4em;
+  }
+
 }
 
 @media (max-width: 600px) {
@@ -258,12 +276,12 @@ footer {
     height: 40vh;
   }
 
-  .titleDiv nav {
+  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
     display: none;
   }
 
-  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
-    width: 595px;
+  .titleDiv nav {
+    display: none;
   }
 
   .titleImg {
@@ -285,10 +303,6 @@ footer {
 
   #about div, #work .titleDiv, #contact div {
     height: 65vh;
-  }
-
-  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
-    width: 497px;
   }
 
   .contactText {

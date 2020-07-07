@@ -372,7 +372,7 @@ footer {
     width: 70%;
   }
 
-  #about div, #work .titleDiv, #contact div {
+  #about .aboutImgDiv, #work .titleDiv, #contact div {
     height: 50vh;
   }
 

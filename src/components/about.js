@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './nav';
 import about from '../images/about.png';
+import profile from '../images/profile_sq.jpg';
 
 const About = props => {
     return (
@@ -10,6 +11,7 @@ const About = props => {
                 <NavBar />
             </div>
             <div className='aboutDiv'>
+                <img className='michelle' src={profile} alt='Michelle Sirimanivong'/>
                 <h3>I am a web developer and designer from Arizona.</h3>
                 <p>
                     My passion for design started in 2004 when I worked for a small stationery store. 

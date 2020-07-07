@@ -324,7 +324,7 @@ footer {
   }
 
   .contactText h2, .contactText p {
-    width: 400px;
+    width: 90%;
   }
 }
 
@@ -338,44 +338,12 @@ footer {
     height: 75vh;
   }
 
-  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
-    width: 420px;
-  }
-
-  .contactText h2, .contactText p {
-    width: 360px;
-  }
-
-  .iconLinks i {
-    font-size: 2.4em;
-  }
 }
 
 
 @media (max-width: 360px) {
-
-  .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
-    width: 340px;
-  }
-
   .titleImg {
     width: 275px;
-  }
-
-  .aboutDiv p {
-    font-size: 14px;
-  }
-
-  .contactText h2, .contactText p {
-    width: 310px;
-  }
-
-  .contactText h2 {
-    font-size: 20px;
-  }
-
-  .contactText p {
-    font-size: 14px;
   }
 
   .iconLinks i {
@@ -383,6 +351,6 @@ footer {
   }
 
   footer {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 }

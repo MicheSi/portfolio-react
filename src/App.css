@@ -73,7 +73,7 @@ nav a:hover {
 }
 
 .homeDiv nav {
-  margin-top: 6%;
+  margin-top: 5%;
 }
 
 .ms {
@@ -82,6 +82,7 @@ nav a:hover {
 
 .elephants {
   width: 20%;
+  margin-top: 1%;
 }
 
 .homeDiv h4 {
@@ -231,19 +232,29 @@ footer {
 @media (max-width: 1024px) {
 
   .homeDiv {
-    height: 50vh;
+    margin-top: 5%;
+    height: 40vh;
   }
 
   .homeDiv nav {
-    margin-top: 15%;
+    margin-top: 5%;
   }
 
   .titleDiv, .projectDiv, .contactDiv {
-    height: 45vh;
+    height: 50vh;
   }
 
   .aboutDiv p, .aboutDiv h3 {
-    padding-right: 20%;
+    padding-right: 18%;
+    padding-left: 8%;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1.4rem;
   }
 
   .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
@@ -262,28 +273,32 @@ footer {
 /* iPad 768 x 1024 */
 @media (max-width: 768px) {
 
-  .logo {
+  /* .logo {
     width: 400px;
-  }
+  } */
 
   .homeDiv {
-    height: 60vh;
+    height: 45vh;
   }
 
   .homeDiv nav {
-    margin-top: 20%;
+    margin-top: 10%;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   h3 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 
   p {
     font-size: 1.2rem;
+  }
+
+  .aboutImgDiv {
+    height: 60vh;
   }
 
   .aboutDiv p, .aboutDiv h3 {
@@ -297,9 +312,13 @@ footer {
 }
 
 @media (max-width: 600px) {
-
   .homeDiv {
-    height: 55vh;
+    height: 40vh;
+    margin-top: 8%;
+  }
+
+  .homeDiv h4, .homeDiv nav {
+    font-size: 1.4rem;
   }
 
   #about, #work, #contact {
@@ -345,13 +364,16 @@ footer {
 
 /* Note 10 Plus */
 @media (max-width: 500px) {
-
   .homeDiv {
-    height: 85vh;
+    height: 35vh;
+  }
+
+  .ms {
+    width: 70%;
   }
 
   #about div, #work .titleDiv, #contact div {
-    height: 65vh;
+    height: 50vh;
   }
 
   .aboutDiv p, .aboutDiv h3 {
@@ -367,22 +389,21 @@ footer {
   }
 }
 
-/* Note 10 */
-@media (max-width: 426px) {
-  .logo {
-    width: 325px;
-  }
-
-  .homeDiv {
-    height: 75vh;
-  }
-
-}
-
-
 @media (max-width: 360px) {
+  .homeDiv {
+    height: 45vh;
+  }
+
+  .homeDiv h4, .homeDiv nav {
+    font-size: 1.2rem;
+  }
+
   .titleImg {
     width: 275px;
+  }
+
+  #about .aboutDiv {
+    height: 90vh;
   }
 
   .iconLinks i {

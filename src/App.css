@@ -138,6 +138,14 @@ nav a:hover {
   background-color: #504c4c;
 }
 
+.contactDiv nav, .contactDiv nav a {
+  color: black;
+}
+
+.contactDiv nav a:hover {
+  color: white;
+}
+
 .contactInfo {
   display: flex;
   flex-direction: column;

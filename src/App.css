@@ -212,7 +212,7 @@ footer {
   }
 
   .aboutDiv p, .aboutDiv h3 {
-    padding-right: 25%;
+    padding-right: 20%;
   }
 
   .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
@@ -253,6 +253,10 @@ footer {
 
   p {
     font-size: 1.2rem;
+  }
+
+  .aboutDiv p, .aboutDiv h3 {
+    padding-right: 15%;
   }
 
   .iconLinks i {
@@ -309,7 +313,7 @@ footer {
 }
 
 /* Note 10 Plus */
-@media (max-width: 498px) {
+@media (max-width: 500px) {
 
   .homeDiv {
     height: 85vh;
@@ -317,6 +321,10 @@ footer {
 
   #about div, #work .titleDiv, #contact div {
     height: 65vh;
+  }
+
+  .aboutDiv p, .aboutDiv h3 {
+    padding-right: 15%;
   }
 
   .contactText {

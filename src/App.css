@@ -88,10 +88,10 @@ nav a:hover {
   margin-top: 0;
 }
 
-.logo {
+/* .logo {
   width: 500px;
   margin-top: 4%;
-}
+} */
 
 
 /* About Styles */
@@ -117,11 +117,19 @@ nav a:hover {
 }
 
 .aboutDiv p, .aboutDiv h3 {
-  padding: 1% 10%;
+  padding: 0 10%;
+}
+
+.skillsh3 {
+  margin-bottom: 0;
+}
+
+.skills {
+  padding-top: 0;
 }
 
 .michelle {
-  width: 30%;
+  width: 25%;
   border-radius: 5px;
   border: 2px solid firebrick;
 }

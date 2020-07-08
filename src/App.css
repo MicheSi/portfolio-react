@@ -89,12 +89,6 @@ nav a:hover {
   margin-top: 0;
 }
 
-/* .logo {
-  width: 500px;
-  margin-top: 4%;
-} */
-
-
 /* About Styles */
 .aboutImgDiv {
   background-color: firebrick;
@@ -155,6 +149,10 @@ nav a:hover {
   height: 100vh;
   overflow: auto;
   background-color: firebrick;
+}
+
+.projectDiv div {
+  padding-bottom: 2%;
 }
 
 .projectDiv::-webkit-scrollbar {

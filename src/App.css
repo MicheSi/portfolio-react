@@ -150,10 +150,6 @@ nav a:hover {
   text-decoration: none;
 }
 
-.projectDiv h3:hover {
-  color: black;
-}
-
 .ddt, .gigapet, .farmfresh, .amiibo, .life {
   display: flex;
   flex-direction: column;
@@ -171,6 +167,26 @@ nav a:hover {
   text-align: left;
   color: white;
 }
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.links a {
+  margin: 0 8%;
+}
+
+.links i {
+  color: white;
+  font-size: 1.6em;
+}
+
+.links i:hover {
+  color: black;
+}
+
 
 .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img {
   width: 100%;

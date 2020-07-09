@@ -300,11 +300,6 @@ footer {
 
 /* iPad 768 x 1024 */
 @media (max-width: 768px) {
-
-  /* .logo {
-    width: 400px;
-  } */
-
   .homeDiv {
     height: 45vh;
   }
@@ -358,7 +353,7 @@ footer {
   }
 
   .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
-    display: none;
+    width: 80%
   }
 
   .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
@@ -367,7 +362,6 @@ footer {
   }
 
   .life, .ddt, .gigapet, .farmfresh, .amiibo {
-    border-bottom: 4px dotted black;
     padding-bottom: 2%;
   }
 

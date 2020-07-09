@@ -25,6 +25,7 @@ const Work = props => {
                     <p>▪ Built using React and styled with CSS</p>
                     <p>▪ Utilized Immer package to help manage application state</p>
                 </div>
+                <div className='border'></div>
                 <div className='ddt'>
                     <a href='https://datadriventransit.org/' target='_blank' rel='noopener noreferrer'><img src={ddt} alt='Data Driven Transit' /></a>
                     <a href='https://github.com/Lambda-School-Labs/sfmta-data-analysis-fe' target='_blank' rel='noopener noreferrer'><h3>Data Driven Transit</h3></a>
@@ -32,6 +33,7 @@ const Work = props => {
                     <p>▪ Collaborated on a team of 4 web developers, 3 data scientists and 1 UX designer to build the app in 8 weeks</p>
                     <p>▪ Solely responsible for creating the website logo and building the navigation bar</p>
                 </div>
+                <div className='border'></div>
                 <div className='gigapet'>
                     <a href='https://gigapet-1.now.sh/' target='_blank' rel='noopener noreferrer'><img src={gigapet} alt='Gigapets' /></a>
                     <a href='https://github.com/build-gigapet-1/Frontend' target='_blank' rel='noopener noreferrer'><h3>Gigapet</h3></a>
@@ -39,6 +41,7 @@ const Work = props => {
                     <p>▪ Collaborated on a team of 5 web developers to build the app in 1 week</p>
                     <p>▪ Built using React with Styled Components and Reactstrap for styling libraries</p>
                 </div>
+                <div className='border'></div>
                 <div className='farmfresh'>
                     <a href='https://farmfresh.now.sh/' target='_blank' rel='noopener noreferrer'><img src={farmfresh} alt='Farm Fresh Produce'/></a>
                     <a href='https://github.com/bw-farm-fresh-produce-v3/Frontend' target='_blank' rel='noopener noreferrer'><h3>Farm Fresh Produce</h3></a>
@@ -46,6 +49,7 @@ const Work = props => {
                     <p>▪ Collaborated on a team of 5 web developers to build the app in 1 week</p>
                     <p>▪ Built using React and Redux</p>
                 </div>
+                <div className='border'></div>
                 <div className='amiibo'>
                     <a href='https://amiibo.now.sh/' target='_blank' rel='noopener noreferrer'><img src={amiibo} alt='Amiibo'/></a>
                     <a href='https://github.com/MicheSi/amiibo' target='_blank' rel='noopener noreferrer'><h3>Amiibo</h3></a>

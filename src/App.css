@@ -30,7 +30,6 @@ h3 {
 
 .titleDiv {
   height: 100vh;
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,29 +129,17 @@ nav a:hover {
 }
 
 /* Work Styles */
-.ddt, .gigapet, .farmfresh, .amiibo, .life {
-  width: 50%;
-}
-
-.life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
-  width: 175%;
-  text-align: left;
-  margin-left: 10%;
-  color: white;
-}
-
-.ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img {
-  width: 200%;
-}
-
 .projectDiv {
   height: 100vh;
   overflow: auto;
   background-color: firebrick;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projectDiv div {
-  padding-bottom: 2%;
+  padding-bottom: 3%;
 }
 
 .projectDiv::-webkit-scrollbar {
@@ -163,9 +150,52 @@ nav a:hover {
   text-decoration: none;
 }
 
-.projectDiv h3:hover {
+.ddt, .gigapet, .farmfresh, .amiibo, .life {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.life {
+  margin-top: 5%;
+}
+
+.life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
+  width: 175%;
+  text-align: left;
+  color: white;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.links a {
+  margin: 0 8%;
+}
+
+.links i {
+  color: white;
+  font-size: 1.6em;
+}
+
+.links i:hover {
   color: black;
 }
+
+
+.ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img {
+  width: 100%;
+}
+
+.border {
+  border-top: 5px dotted black;
+}
+
 
 /* Contact Styles */
 .contactDiv {

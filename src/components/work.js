@@ -21,7 +21,7 @@ const Work = props => {
                 <div className='life'>
                     <a href='https://csbw-game-of-life.now.sh/' target='_blank' rel='noopener noreferrer'><img src={life} alt='Game of Life'/></a>
                     <h3>Conway's Game of Life</h3>
-                    <p>A computer science classNameic from 1970, Game of Life simulates a cellular automaton.</p>
+                    <p>A computer science classic from 1970, Game of Life simulates a cellular automaton.</p>
                     <p>▪ Built using React and styled with CSS</p>
                     <p>▪ Utilized Immer package to help manage application state</p>
                 </div>

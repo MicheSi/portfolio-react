@@ -6,7 +6,7 @@
   text-align: center;
   max-width: 100%;
   margin: 0;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.5;
 }
 
@@ -168,6 +168,12 @@ nav a:hover {
   color: white;
 }
 
+li {
+  width: 175%;
+  text-align: left;
+  color: white;
+}
+
 .links {
   display: flex;
   justify-content: center;
@@ -255,6 +261,17 @@ footer {
 }
 
 /* Media Queries */
+@media (max-width: 1280px) {
+  .homeDiv {
+    margin-top: 5%;
+    height: 90vh;
+  }
+
+  .homeDiv nav {
+    margin-top: 8%;
+  }
+  
+}
 
 /* iPad Pro 1024 x 1366 */
 @media (max-width: 1024px) {

@@ -19,8 +19,8 @@ const About = props => {
                     I began to create custom stationery and invitations for clients - turning a simple piece of paper into a beautiful work of art.
                 </p>
                 <p>
-                    I attended the Full Stack Web Development program at Lambda School in September of 2019. I learned how to build functional and appealing
-                    applications using HTML, CSS, Javascript, React and Node.js. I also learned how to build a program using Python during our Computer Science unit.
+                    I attended the Full Stack Web Development program at Lambda School from September 2019 to July 2020. I learned how to build functional and appealing
+                    applications using HTML, CSS, Javascript, React and Node.js. I also learned how to build programs using Python during our Computer Science unit. I am currently learning Java via self-study, to continue my education and improve my programming skills.
                 </p>
                 <h3 className='skillsh3'>Skills</h3>
                 <p className='skills'>

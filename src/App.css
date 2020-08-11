@@ -6,7 +6,7 @@
   text-align: center;
   max-width: 100%;
   margin: 0;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.5;
 }
 
@@ -163,6 +163,12 @@ nav a:hover {
 }
 
 .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
+  width: 175%;
+  text-align: left;
+  color: white;
+}
+
+li {
   width: 175%;
   text-align: left;
   color: white;

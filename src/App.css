@@ -261,6 +261,7 @@ footer {
 }
 
 /* Media Queries */
+/* 1280px */
 @media (max-width: 1280px) {
   .homeDiv {
     margin-top: 5%;
@@ -273,6 +274,7 @@ footer {
   
 }
 
+/* 1200px*/
 @media (max-width: 1200px) {
   .homeDiv nav {
     margin-top: 10%;
@@ -293,12 +295,12 @@ footer {
   }
 }
 
-/* iPad Pro 1024 x 1366 */
+/* iPad Pro 1024 */
 @media (max-width: 1024px) {
 
   .homeDiv {
     margin-top: 5%;
-    height: 40vh;
+    height: 80vh;
   }
 
   .homeDiv nav {
@@ -306,7 +308,11 @@ footer {
   }
 
   .titleDiv, .projectDiv, .contactDiv {
-    height: 50vh;
+    height: 95vh;
+  }
+
+  .titleDiv nav {
+    margin-top: 30%;
   }
 
   .aboutDiv p, .aboutDiv h3 {
@@ -319,7 +325,7 @@ footer {
   }
 
   p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   li, .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
@@ -335,6 +341,38 @@ footer {
 
 }
 
+/* 900px */
+@media (max-width: 900px) {
+  .homeDiv {
+    height: 80vh;
+  }
+
+  .homeDiv nav {
+    margin-top: 8%;
+  }
+
+  .titleDiv, .projectDiv, .contactDiv {
+    height: 95vh;
+  }
+  .titleDiv nav {
+    margin-top: 40%;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  p, li {
+    font-size: 1.2rem;
+  }
+
+  li, .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
+    width: 165%;
+    text-align: left;
+    margin-left: 0;
+  }
+}
+
 /* iPad 768 x 1024 */
 @media (max-width: 768px) {
   .homeDiv {
@@ -344,6 +382,8 @@ footer {
   .homeDiv nav {
     margin-top: 10%;
   }
+
+  
 
   h2 {
     font-size: 1.8rem;

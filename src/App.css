@@ -354,6 +354,7 @@ footer {
   .titleDiv, .projectDiv, .contactDiv {
     height: 95vh;
   }
+
   .titleDiv nav {
     margin-top: 40%;
   }
@@ -373,17 +374,15 @@ footer {
   }
 }
 
-/* iPad 768 x 1024 */
+/* iPad 768*/
 @media (max-width: 768px) {
   .homeDiv {
-    height: 45vh;
+    height: 70vh;
   }
 
   .homeDiv nav {
     margin-top: 10%;
   }
-
-  
 
   h2 {
     font-size: 1.8rem;
@@ -394,11 +393,11 @@ footer {
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
-  .aboutImgDiv {
-    height: 60vh;
+  .aboutImgDiv, .titleDiv {
+    height: 85vh;
   }
 
   .aboutDiv p, .aboutDiv h3 {

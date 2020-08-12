@@ -478,7 +478,7 @@ footer {
     width: 70%;
   }
 
-  #about .aboutImgDiv, #work .titleDiv, #contact div {
+  #about .aboutImgDiv, #work .titleDiv, #contact .contactDiv, .contactInfo {
     height: 50vh;
   }
 
@@ -487,11 +487,19 @@ footer {
   }
 
   .contactText {
-    padding: 5% 0 10%;
+    padding: 3% 0 5%;
   }
 
   .contactText h2, .contactText p {
     width: 80%;
+  }
+
+  .contactText p {
+    font-size: 1.2rem;
+  }
+
+  .iconLinks i {
+    font-size: 2em;
   }
 }
 

@@ -412,7 +412,7 @@ footer {
 
 @media (max-width: 600px) {
   .homeDiv {
-    height: 40vh;
+    height: 60vh;
     margin-top: 8%;
   }
 
@@ -449,6 +449,11 @@ footer {
     margin-top: 0;
   }
 
+  .contactText {
+    width: 100%;
+    margin-left: 5%;
+  }
+
   .contactText h2, .contactText p {
     margin: 5% 0;
   }
@@ -456,14 +461,17 @@ footer {
   .iconLinks {
     justify-content: space-evenly;
     margin: 0 0 5% 0;
-    
+  }
+
+  .iconLinks i {
+    font-size: 2.2em;
   }
 }
 
 /* Note 10 Plus */
 @media (max-width: 500px) {
   .homeDiv {
-    height: 35vh;
+    height: 55vh;
   }
 
   .ms {

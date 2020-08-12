@@ -44,7 +44,7 @@ const Work = props => {
                 <div className='border'></div>
                 <div className='gigapet'>
                     <a href='https://gigapet-1.now.sh/' target='_blank' rel='noopener noreferrer'><img src={gigapet} alt='Gigapets' /></a>
-                    <a href='https://github.com/build-gigapet-1/Frontend' target='_blank' rel='noopener noreferrer'><h3>Gigapet</h3></a>
+                    <h3>Gigapet</h3>
                     <p>Gigapet is a React app for parents to track their children's food intake and motivate kids to eat by feeding their gigapet.</p>
                     <li>Collaborated on a team of 5 web developers to build the app in 1 week</li>
                     <li>Built using React with Styled Components and Reactstrap for styling libraries</li>
@@ -57,7 +57,7 @@ const Work = props => {
                 <div className='border'></div>
                 <div className='farmfresh'>
                     <a href='https://farmfresh.now.sh/' target='_blank' rel='noopener noreferrer'><img src={farmfresh} alt='Farm Fresh Produce'/></a>
-                    <a href='https://github.com/bw-farm-fresh-produce-v3/Frontend' target='_blank' rel='noopener noreferrer'><h3>Farm Fresh Produce</h3></a>
+                    <h3>Farm Fresh Produce</h3>
                     <p>Farm Fresh Produce is a React app that connects the public to local farmers, allowing them to buy fresh produce directly from the local farms.</p>
                     <li>Collaborated on a team of 5 web developers to build the app in 1 week</li>
                     <li>Built using React and Redux</li>
@@ -69,7 +69,7 @@ const Work = props => {
                 <div className='border'></div>
                 <div className='amiibo'>
                     <a href='https://amiibo.now.sh/' target='_blank' rel='noopener noreferrer'><img src={amiibo} alt='Amiibo'/></a>
-                    <a href='https://github.com/MicheSi/amiibo' target='_blank' rel='noopener noreferrer'><h3>Amiibo</h3></a>
+                    <h3>Amiibo</h3>
                     <p>Amiibo is a React app that allows users to look up images and information on Nintendo Amiibos.</p>
                     <li>Utilized Amiibo API to generate data on Amiibos</li>
                     <li>Built using React with Styled Components and Reactstrap for styling libraries</li>

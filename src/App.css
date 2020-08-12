@@ -273,6 +273,26 @@ footer {
   
 }
 
+@media (max-width: 1200px) {
+  .homeDiv nav {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .homeDiv {
+    margin-top: 7%;
+  }
+
+  .homeDiv nav {
+    margin-top: 13%;
+  }
+
+  .titleDiv nav {
+    margin-top: 40%;
+  }
+}
+
 /* iPad Pro 1024 x 1366 */
 @media (max-width: 1024px) {
 
@@ -302,7 +322,7 @@ footer {
     font-size: 1.4rem;
   }
 
-  .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
+  li, .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
     width: 135%;
     text-align: left;
     margin-left: 10%;
@@ -373,7 +393,7 @@ footer {
     width: 80%
   }
 
-  .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
+  li, .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
     width: 90%;
     margin-left: 5%;
   }

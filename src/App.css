@@ -310,7 +310,7 @@ footer {
   }
 
   .aboutDiv p, .aboutDiv h3 {
-    padding-right: 18%;
+    padding-right: 15%;
     padding-left: 8%;
   }
 
@@ -323,13 +323,13 @@ footer {
   }
 
   li, .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
-    width: 135%;
+    width: 155%;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 0;
   }
 
   .contactText h2, .contactText p {
-    width: 125%;
+    width: 150%;
     margin: 10% 0;
   }
 

@@ -505,11 +505,15 @@ footer {
 
 @media (max-width: 360px) {
   .homeDiv {
-    height: 45vh;
+    height: 40vh;
   }
 
   .homeDiv h4, .homeDiv nav {
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+
+  .homeDiv nav {
+    margin-top: 12%;
   }
 
   .titleImg {
@@ -520,8 +524,12 @@ footer {
     height: 90vh;
   }
 
+  .contactInfo {
+    height: 40vh;
+  }
+
   .iconLinks i {
-    font-size: 2em;
+    font-size: 1.8em;
   }
 
   footer {

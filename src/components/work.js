@@ -9,6 +9,7 @@ import gigapet from '../images/gigapet.png';
 import farmfresh from '../images/farmfresh.png';
 import amiibo from '../images/amiibo.png';
 import life from '../images/life.png';
+import dream from '../images/dream.png';
 
 const Work = props => {
     return (
@@ -18,6 +19,19 @@ const Work = props => {
                 <NavBar />
             </div>
             <div className='projectDiv'>
+                <div className='dream'>
+                    <a href='https://my-dream-journal.vercel.app/' target='_blank' rel='noopener noreferrer'><img src={dream} alt='Dream Journal'/></a>
+                    <h3>My Dream Journal</h3>
+                    <p>My Dream Journal is a React app used to keep track of your dreams.</p>
+                    <li>Frontend built using React and Semantic UI React</li>
+                    <li>Utilized Formik and Yup for schema validation</li>
+                    <li>Backend API built with Node.js, Knex and SQLite3, using Postgres for production</li>
+                </div>
+                <div className='links'>
+                    <a href='https://my-dream-journal.vercel.app//' target='_blank' rel='noopener noreferrer'><i className="fas fa-external-link-alt"></i></a>
+                    <a href='https://github.com/MicheSi/my_dream_journal' target='_blank' rel='noopener noreferrer'><i className="fab fa-github"></i></a>
+                </div>
+                <div className='border'></div>
                 <div className='life'>
                     <a href='https://csbw-game-of-life.now.sh/' target='_blank' rel='noopener noreferrer'><img src={life} alt='Game of Life'/></a>
                     <h3>Conway's Game of Life</h3>

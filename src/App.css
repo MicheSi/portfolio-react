@@ -150,7 +150,7 @@ nav a:hover {
   text-decoration: none;
 }
 
-.ddt, .gigapet, .farmfresh, .amiibo, .life {
+.ddt, .gigapet, .farmfresh, .amiibo, .life, .dream {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,7 +162,7 @@ nav a:hover {
   margin-top: 5%;
 }
 
-.life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
+.dream h3, .dream p, .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
   width: 175%;
   text-align: left;
   color: white;
@@ -194,7 +194,7 @@ li {
 }
 
 
-.ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img {
+.ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img, .dream img {
   width: 100%;
 }
 

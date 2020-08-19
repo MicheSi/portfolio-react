@@ -4,7 +4,7 @@ import NavBar from './nav';
 
 // image imports
 import projects from '../images/projects.png';
-import ddt from '../images/ddt2.png';
+import ddt from '../images/ddt.png';
 import gigapet from '../images/gigapet.png';
 import farmfresh from '../images/farmfresh.png';
 import amiibo from '../images/amiibo.png';
@@ -45,15 +45,15 @@ const Work = props => {
                 </div>
                 <div className='border'></div>
                 <div className='ddt'>
-                    <a href='https://datadriventransit.org/' target='_blank' rel='noopener noreferrer'><img src={ddt} alt='Data Driven Transit' /></a>
+                    <a href='https://datadriventransit.vercel.app/' target='_blank' rel='noopener noreferrer'><img src={ddt} alt='Data Driven Transit' /></a>
                     <h3>Data Driven Transit</h3>
                     <p>Data Driven Transit is a React app that displays historical data on the San Francisco Municipal Transportation Agency.</p>
                     <li>Collaborated on a team of 4 web developers, 3 data scientists and 1 UX designer to build the app in 8 weeks</li>
                     <li>Solely responsible for creating the website logo and building the navigation bar</li>
                 </div>
                 <div className='links'>
-                    <a href='https://datadriventransit.org/' target='_blank' rel='noopener noreferrer'><i className="fas fa-external-link-alt"></i></a>
-                    <a href='https://github.com/Lambda-School-Labs/sfmta-data-analysis-fe' target='_blank' rel='noopener noreferrer'><i className="fab fa-github"></i></a>
+                    <a href='https://datadriventransit.vercel.app/' target='_blank' rel='noopener noreferrer'><i className="fas fa-external-link-alt"></i></a>
+                    <a href='https://github.com/MicheSi/datadriventransit' target='_blank' rel='noopener noreferrer'><i className="fab fa-github"></i></a>
                 </div>
                 <div className='border'></div>
                 <div className='gigapet'>

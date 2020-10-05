@@ -24,7 +24,7 @@ const About = props => {
                 </p>
                 <h3 className='skillsh3'>Skills</h3>
                 <p className='skills'>
-                    HTML | CSS | JavaScript | React | Redux | Node | Python | SQL | SQLite3 |
+                    HTML | CSS | JavaScript | React | React Native | Redux | Node | Python | SQL | SQLite | Express |
                     Knex | Jest | React Testing Library
                 </p>
             </div>

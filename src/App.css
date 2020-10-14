@@ -193,7 +193,6 @@ li {
   color: black;
 }
 
-
 .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img, .dream img {
   width: 100%;
 }
@@ -201,7 +200,6 @@ li {
 .border {
   border-top: 5px dotted black;
 }
-
 
 /* Contact Styles */
 .contactDiv {
@@ -233,10 +231,11 @@ li {
   margin: 10% 0;
 }
 
-.iconLinks {
+#contact div.iconLinks {
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
+  width: 75%;
 }
 
 .iconLinks a {

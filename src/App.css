@@ -460,7 +460,7 @@ footer {
 
   .iconLinks {
     justify-content: space-evenly;
-    margin: 0 0 5% -10%;
+    margin: 0 0 5% 5%;
   }
 
   .iconLinks i {
@@ -529,7 +529,7 @@ footer {
   }
 
   div.iconLinks {
-    margin-left: -8%;
+    margin-left: 8%;
   }
 
   .iconLinks i {

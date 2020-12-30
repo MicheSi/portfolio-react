@@ -10,6 +10,7 @@ import farmfresh from '../images/farmfresh.png';
 import amiibo from '../images/amiibo.png';
 import life from '../images/life.png';
 import dream from '../images/dream.png';
+import rise from '../images/rise.png';
 
 const Work = props => {
     return (
@@ -19,6 +20,19 @@ const Work = props => {
                 <NavBar />
             </div>
             <div className='projectDiv'>
+                <div className='rise'>
+                    <a href='https://riseorthosportspt.com' target='_blank' rel='noopener noreferrer'><img src={rise} alt='Rise Orthopedics and Sports Physical Therapy'/></a>
+                    <h3>Rise Orthopedics & Sports Physical Therapy</h3>
+                    <p>React website for Rise Orthopedics & Sports Physical Therapy in Surprise, AZ</p>
+                    <li>Built using React, React Hooks and ReactStrap</li>
+                    <li>Utilized Video-React as a web video player</li>
+                    <li>Contact form connected to email using EmailJS</li>
+                </div>
+                <div className='links'>
+                    <a href='https://my-dream-journal.vercel.app//' target='_blank' rel='noopener noreferrer'><i className="fas fa-external-link-alt"></i></a>
+                    <a href='https://github.com/MicheSi/my_dream_journal' target='_blank' rel='noopener noreferrer'><i className="fab fa-github"></i></a>
+                </div>
+                <div className='border'></div>
                 <div className='dream'>
                     <a href='https://my-dream-journal.vercel.app/' target='_blank' rel='noopener noreferrer'><img src={dream} alt='Dream Journal'/></a>
                     <h3>My Dream Journal</h3>
@@ -80,7 +94,7 @@ const Work = props => {
                     <a href='https://farmfresh.now.sh/' target='_blank' rel='noopener noreferrer'><i className="fas fa-external-link-alt"></i></a>
                     <a href='https://github.com/bw-farm-fresh-produce-v3/Frontend' target='_blank' rel='noopener noreferrer'><i className="fab fa-github"></i></a>
                 </div>
-                <div className='border'></div>
+                {/* <div className='border'></div>
                 <div className='amiibo'>
                     <a href='https://amiibo.now.sh/' target='_blank' rel='noopener noreferrer'><img src={amiibo} alt='Amiibo'/></a>
                     <h3>Amiibo</h3>
@@ -91,7 +105,7 @@ const Work = props => {
                 <div className='links'>
                     <a href='https://amiibo.now.sh/' target='_blank' rel='noopener noreferrer'><i className="fas fa-external-link-alt"></i></a>
                     <a href='https://github.com/MicheSi/amiibo' target='_blank' rel='noopener noreferrer'><i className="fab fa-github"></i></a>
-                </div>
+                </div> */}
             </div>
         </section>
     )

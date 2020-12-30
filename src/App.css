@@ -327,7 +327,7 @@ footer {
     font-size: 1.2rem;
   }
 
-  li, .dream h3, .dream p, .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
+  li, .rise h3, .rise p, .dream h3, .dream p, .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
     width: 155%;
     text-align: left;
     margin-left: 0;
@@ -366,7 +366,7 @@ footer {
     font-size: 1.2rem;
   }
 
-  li, .dream h3, .dream p, .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
+  li, .rise h3, .rise p, .dream h3, .dream p, .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
     width: 165%;
     text-align: left;
     margin-left: 0;
@@ -427,16 +427,16 @@ footer {
     width: 100%;
   }
 
-  .dream img, .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
+  .rise img, .dream img, .ddt img, .gigapet img, .farmfresh img, .amiibo img, .life img{
     width: 80%
   }
 
-  li, .dream h3, .dream p, .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
+  li, .rise h3, .rise p, .dream h3, .dream p, .life h3, .life p, .ddt h3, .ddt p, .gigapet h3, .gigapet p, .farmfresh h3, .farmfresh p, .amiibo h3, .amiibo p {
     width: 90%;
     margin-left: 5%;
   }
 
-  .life, .ddt, .gigapet, .farmfresh, .amiibo, .dream {
+  .life, .ddt, .gigapet, .farmfresh, .amiibo, .dream, .rise {
     padding-bottom: 2%;
   }
 

@@ -25,18 +25,19 @@ const About = (props) => {
           piece of paper into a beautiful work of art.
         </p>
         <p>
-          I graduated from Lambda School's Full Stack Web Development
-          program in July 2020. I learned how to build functional and
-          appealing applications using HTML, CSS, JavaScript, React and
-          Node.js. During our Computer Science unit, I learned how to build
-          programs and write algorithms using Python. I am currently
-          working as a software engineer for United HealthGroup.
+          I graduated from BloomTech's (formerly Lambda School) Full Stack
+          Web Development program in July 2020. I learned how to build
+          functional and appealing applications using HTML, CSS,
+          JavaScript, React and Node.js. During our Computer Science unit,
+          I learned how to build programs and write algorithms using
+          Python. I am currently working as a software engineer for
+          Optum/United HealthGroup.
         </p>
         <h3 className="skillsh3">Skills</h3>
         <p className="skills">
-          HTML | CSS | JavaScript | TypeScript | React | Redux | Angular |
+          JavaScript | TypeScript | React | Redux | Angular | C# | .NET |
           Node | Python | SQL | SQLite | Postgres | Express | Knex | Jest |
-          Jasmine | .NET
+          Jasmine | HTML | CSS
         </p>
       </div>
     </section>

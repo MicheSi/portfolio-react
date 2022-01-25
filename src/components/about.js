@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./nav";
 import about from "../images/about.png";
-import profile from "../images/new_profile.jpg";
+import profile from "../images/michelle_2021.jpg";
 
 const About = (props) => {
   return (

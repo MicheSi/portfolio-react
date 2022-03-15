@@ -25,6 +25,15 @@ const About = (props) => {
           piece of paper into a beautiful work of art.
         </p>
         <p>
+          From there, I transitioned into web development, continuing my
+          love for design and adding a new affection for technology. I
+          graduated from BloomTech's (formerly Lambda School) Full Stack
+          Web Development program in July 2020. I learned the skills needed
+          to build visually appealing websites and create applications that
+          help solve real-world problems. I am currently working as a
+          software engineer for Optum (United HealthGroup).
+        </p>
+        {/* <p>
           I graduated from BloomTech's (formerly Lambda School) Full Stack
           Web Development program in July 2020. I learned how to build
           functional and appealing applications using HTML, CSS,
@@ -32,7 +41,7 @@ const About = (props) => {
           I learned how to build programs and write algorithms using
           Python. I am currently working as a software engineer for
           Optum/United HealthGroup.
-        </p>
+        </p> */}
         <h3 className="skillsh3">Skills</h3>
         <p className="skills">
           JavaScript | TypeScript | React | Redux | Angular | C# | .NET |

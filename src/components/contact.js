@@ -17,7 +17,7 @@ const Contact = (props) => {
           </p>
         </div>
         <div className="iconLinks">
-          <a href="mailto:contact@michellesirimanivong.com">
+          <a href="mailto:mlazzell17@gmail.com">
             <i className="fas fa-envelope-open-text"></i>
           </a>
           <a
@@ -33,13 +33,6 @@ const Contact = (props) => {
             rel="noopener noreferrer"
           >
             <i className="fab fa-github"></i>
-          </a>
-          <a
-            href="https://twitter.com/msirimanivong"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-twitter"></i>
           </a>
           <a
             href="https://www.instagram.com/cookies.n.code/"

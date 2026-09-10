@@ -21,7 +21,7 @@ const Contact = (props) => {
             <i className="fas fa-envelope-open-text"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/michellesirimanivong/"
+            href="https://www.linkedin.com/in/michellelazzell/"
             target="_blank"
             rel="noopener noreferrer"
           >
